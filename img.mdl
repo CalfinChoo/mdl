@@ -1,0 +1,28 @@
+constants shiny_purple 0.3 0.2 0.8 0.3 0 0 0.3 0.2 0.8
+constants shiny_teal 0.3 0.0 0.0 0.3 0.2 0.8 0.3 0.2 0.8
+constants red 0.3 0.6 0.8 0.3 0.2 0.6 0.3 0.2 0.8
+constants black 0.1 0.1 0.8 0.1 0.1 0.8 0.1 0.1 0.8
+push
+move 150 200 -200
+rotate x 30
+rotate y -30
+box shiny_purple 100 350 400 50 250 315
+torus black 245 130 250 15 80
+torus shiny_teal 245 110 250 5 75
+torus shiny_teal 245 105 250 5 75
+torus shiny_teal 245 100 250 5 70
+torus shiny_teal 245 95 250 5 70
+torus shiny_teal 245 90 250 5 65
+torus shiny_teal 245 85 250 5 65
+torus shiny_teal 245 80 250 5 60
+torus shiny_teal 245 80 250 5 60
+torus shiny_teal 245 75 250 5 55
+torus shiny_teal 245 70 250 5 55
+torus shiny_teal 245 65 250 5 50
+torus shiny_teal 245 60 250 5 50
+torus shiny_teal 245 55 250 5 45
+torus shiny_teal 245 50 250 5 40
+sphere red 400 300 250 60
+pop
+display
+save img.png

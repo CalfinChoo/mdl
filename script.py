@@ -108,10 +108,10 @@ def run(filename):
                       float(args[0]), float(args[1]), float(args[2]),
                       float(args[3]), float(args[4]), float(args[5]) )
             matrix_mult( stack[-1], edges )
-            draw_lines(eges, screen, zbuffer, color)
+            draw_lines(edges, screen, zbuffer, color)
             edges = []
         elif line == 'display' or line == 'save':
             if line == 'display':
                 display(screen)
             else:
-                save_extension(screen, args[0])
+                save_extension(screen, command['args'][0]+'.png')
